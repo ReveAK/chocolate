@@ -1,0 +1,18 @@
+.header {
+  $block: '.header';
+
+  width: 960px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__top-bar {
+    width: 100%;
+    height: 83px;
+  }
+
+  &__event-spotlight {
+    height: 569px;
+  }
+}

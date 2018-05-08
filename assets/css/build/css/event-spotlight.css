@@ -1,0 +1,16 @@
+.event-spotlight {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  justify-content: space-around; }
+  .event-spotlight__event-card {
+    width: 100%;
+    height: 498px; }
+  .event-spotlight__arrows {
+    width: 100%;
+    height: 71px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }

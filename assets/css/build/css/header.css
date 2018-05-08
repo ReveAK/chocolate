@@ -1,0 +1,11 @@
+.header {
+  width: 960px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .header__top-bar {
+    width: 100%;
+    height: 83px; }
+  .header__event-spotlight {
+    height: 569px; }

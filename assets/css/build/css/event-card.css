@@ -1,0 +1,62 @@
+.event-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%; }
+  .event-card__info {
+    background-color: white;
+    padding: 0 25px 0 23px; }
+  .event-card__date-place {
+    display: flex;
+    justify-content: space-between;
+    height: 48px;
+    align-items: center; }
+  .event-card__date {
+    font-family: "Helvetica";
+    font-weight: lighter;
+    font-size: 18px;
+    line-height: 16px;
+    color: #d41f4d; }
+  .event-card__time {
+    color: black; }
+  .event-card__place {
+    font-family: "Helvetica";
+    font-weight: lighter;
+    font-size: 18px;
+    line-height: 16px; }
+  .event-card__title {
+    height: 64px; }
+  .event-card__title-text {
+    font-family: "Helvetica";
+    font-weight: lighter;
+    font-size: 24px;
+    line-height: 24px; }
+  .event-card__buttons {
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    align-items: center; }
+  .event-card__tags-button {
+    border: 1px ridge #707070;
+    border-radius: 36px;
+    width: 75px;
+    height: 32px;
+    background-color: transparent;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #7e8b8d; }
+  .event-card__get-tickets {
+    display: flex;
+    justify-content: center; }
+  .event-card__get-tickets__button {
+    width: 96px;
+    height: 32px;
+    background-color: #d41f4d;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    font-family: "Helvetica";
+    font-size: 14px;
+    line-height: 11px;
+    font-weight: bold; }

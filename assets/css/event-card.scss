@@ -1,0 +1,87 @@
+.event-card {
+  $block: '.event-card';
+
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+
+  &__info {
+    background-color: white;
+    padding:0 25px 0 23px;
+  }
+
+  &__date-place {
+    display: flex;
+    justify-content: space-between;
+    height: 48px;
+    align-items: center;
+  }
+
+  &__date {
+    font-family: "Helvetica";
+    font-weight: lighter;
+    font-size: 18px;
+    line-height: 16px;
+   color: rgba(212, 31, 77, 1);
+  }
+
+  &__time {
+    color: black;
+  }
+
+  &__place {
+    font-family: "Helvetica";
+    font-weight: lighter;
+    font-size: 18px;
+    line-height: 16px;
+  }
+
+  &__title {
+    height: 64px;
+  }
+
+  &__title-text {
+    font-family: "Helvetica";
+    font-weight: lighter;
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  &__buttons {
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    align-items: center;
+  }
+
+  &__tags-button {
+    border: 1px ridge rgba(112, 112, 112, 1);
+    border-radius: 36px;
+    width: 75px;
+    height: 32px;
+    background-color: transparent;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: lighter;
+    color: rgba(126, 139, 141, 1)
+  }
+
+  &__get-tickets {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__get-tickets__button {
+    width: 96px;
+    height: 32px;
+    background-color: rgba(212, 31, 77, 1);
+    border-radius: 6px;
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    font-family: "Helvetica";
+    font-size: 14px;
+    line-height: 11px;
+    font-weight: bold;
+  }
+}

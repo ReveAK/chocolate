@@ -1,0 +1,23 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+.home-page {
+  $block: '.home-page';
+
+  &__header {
+    height: 653px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__upcoming-events {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EAEAEA;
+  }
+}

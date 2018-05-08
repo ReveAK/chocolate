@@ -1,0 +1,14 @@
+.search {
+  display: flex;
+  align-items: flex-end; }
+  .search__icon {
+    width: 24px;
+    height: 24px; }
+  .search__text {
+    border: none;
+    background-color: transparent;
+    padding-left: 22px;
+    font-size: 24px;
+    height: 20px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.3); }

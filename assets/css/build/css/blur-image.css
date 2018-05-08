@@ -1,0 +1,12 @@
+.blur-image {
+  border: none;
+  background-image: url("../../../images/boris-brejcha-2x.png");
+  background-repeat: no-repeat;
+  height: 653px;
+  width: 1690px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  filter: blur(50px);
+  transform: scale(1.5); }

@@ -1,0 +1,16 @@
+html, body {
+  padding: 0;
+  margin: 0; }
+
+.home-page__header {
+  height: 653px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.home-page__upcoming-events {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #EAEAEA; }
