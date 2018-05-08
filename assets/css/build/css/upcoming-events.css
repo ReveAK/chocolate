@@ -1,2 +1,6 @@
 .upcoming-events {
   width: 960px; }
+  .upcoming-events__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }

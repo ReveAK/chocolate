@@ -2,4 +2,10 @@
   $block: '.upcoming-events';
 
   width: 960px;
+
+  &__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
