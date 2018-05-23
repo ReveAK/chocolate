@@ -6,7 +6,8 @@
   height: 100%;
   justify-content: space-around; }
   .event-spotlight__event-card {
-    width: 100%; }
+    width: 100%;
+    height: 494px; }
   .event-spotlight__arrows {
     width: 100%;
     height: 71px;

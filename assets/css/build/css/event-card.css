@@ -1,40 +1,50 @@
 .event-card {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  background-color: white; }
   .event-card__info {
-    background-color: white;
-    padding: 0 25px 0 23px; }
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 0 25px 0 23px;
+    height: 179px; }
   .event-card__date-place {
     display: flex;
     justify-content: space-between;
-    height: 48px;
     align-items: center; }
   .event-card__date {
     font-family: "Helvetica";
     font-weight: lighter;
-    font-size: 18px;
-    line-height: 16px;
+    margin: 0;
     color: #d41f4d; }
+  .event-card__date_big {
+    font-size: 18px; }
+  .event-card__date_small {
+    font-size: 12px; }
   .event-card__time {
     color: black; }
   .event-card__place {
     font-family: "Helvetica";
     font-weight: lighter;
-    font-size: 18px;
-    line-height: 16px; }
+    margin: 0; }
+  .event-card__place_big {
+    font-size: 18px; }
+  .event-card__place_small {
+    font-size: 12px; }
   .event-card__title {
-    height: 64px; }
-  .event-card__title-text {
     font-family: "Helvetica";
     font-weight: lighter;
-    font-size: 24px;
-    line-height: 24px; }
+    margin: 0; }
+  .event-card__title_big {
+    font-size: 24px; }
+  .event-card__title_small {
+    font-size: 20px; }
   .event-card__buttons {
     display: flex;
     justify-content: space-between;
-    height: 64px;
     align-items: center; }
   .event-card__get-tickets {
     display: flex;

@@ -6,7 +6,6 @@
   <link rel="stylesheet" type="text/css" href="assets/css/build/css/event-spotlight.css" />
   <link rel="stylesheet" type="text/css" href="assets/css/build/css/top-bar.css" />
   <link rel="stylesheet" type="text/css" href="assets/css/build/css/get-tickets-button.css" />
-  <link rel="stylesheet" type="text/css" href="assets/css/build/css/tags-navbar.css" />
   <link rel="stylesheet" type="text/css" href="assets/css/build/css/event-card.css" />
   <link rel="stylesheet" type="text/css" href="assets/css/build/css/search.css" />
   <link rel="stylesheet" type="text/css" href="assets/css/build/css/header.css" />
@@ -48,17 +47,17 @@
           <div class="event-spotlight">
             <div class="event-spotlight__event-card">
               <div class="event-card">
-                <img src="assets/images/boris-brejcha.png" alt="event-image">
+                <div class="event-card__image">
+                  <img src="assets/images/boris-brejcha.png" alt="event-image">
+                </div>
                 <div class="event-card__info">
                   <div class="event-card__date-place">
-                    <h4 class="event-card__date">Mon, Jul 3, 2018 <label class="event-card__time">20:30</label></h4>
-                    <h4 class="event-card__place">KED, Beirut</h4>
+                    <h4 class="event-card__date event-card__date_big">Mon, Jul 3, 2018 <label class="event-card__time">20:30</label></h4>
+                    <h4 class="event-card__place event-card__place_big">KED, Beirut</h4>
                   </div>
-                  <div class="event-card__title">
-                    <h3 class="event-card__title-text">Boris Brejcha Showcase</h3>
-                  </div>
+                  <h3 class="event-card__title event-card__title_big">Boris Brejcha Showcase</h3>
                   <div class="event-card__buttons">
-                  <div class="buttons-group">
+                  <div>
                     <button class="tags-button" type="submit">Concert</button>
                     <button type="submit" class="tags-button">Electro</button>
                   </div>
@@ -82,81 +81,104 @@
         <div class="upcoming-events__navbar">
           <h2>Upcoming Events</h2>
          <div>
-           <button class="tags-button" type="button">All</button>
-           <button class="tags-button" type="button">Clubbing</button>
-           <button class="tags-button" type="button">Concert</button>
-           <button class="tags-button" type="button">Conference</button>
-           <button class="tags-button" type="button">Workshop</button>
-           <button class="tags-button" type="button">Theatre</button>
-           <button class="tags-button" type="button">Party</button>
+           <button class="tags-button tags-button_navbar" type="button">All</button>
+           <button class="tags-button tags-button_navbar" type="button">Clubbing</button>
+           <button class="tags-button tags-button_navbar" type="button">Concert</button>
+           <button class="tags-button tags-button_navbar" type="button">Conference</button>
+           <button class="tags-button tags-button_navbar" type="button">Workshop</button>
+           <button class="tags-button tags-button_navbar" type="button">Theatre</button>
+           <button class="tags-button tags-button_navbar" type="button">Party</button>
          </div>
         </div>
-        <div>
-          <div class="event-card">
-            <div>
+        <div class="upcoming-events__event-cards">
+          <div class="upcoming-events__event-card">
+            <div class="event-card">
               <img src="assets/images/Image6.png" alt="event-image">
-            </div>
-            <div>
-              <h4>Mon, Jul 3, 2018 <label>20:30</label></h4>
-              <h5>KED, Beirut</h5>
-              <h3>Kid Francescoli</h3>
-              <button type="button">Concert</button>
-              <button type="button">Electro</button>
-              <button type="button">Get tickets</button>
+              <div class="event-card__info">
+                <div class="event-card__date-place">
+                  <h4 class="event-card__date event-card__date_small">Mon, Jul 3, 2018 <label class="event-card__time">20:30</label></h4>
+                  <h4 class="event-card__place event-card__place_small">KED, Beirut</h4>
+                </div>
+                  <h3 class="event-card__title event-card__title_small">Kid Francescoli</h3>
+                <div class="event-card__buttons">
+                  <div>
+                    <button class="tags-button" type="button">Concert</button>
+                    <button  class="tags-button" type="button">Electro</button>
+                  </div>
+                  <div class="event-card__get-tickets">
+                    <button type="button" class="event-card__get-tickets__button">Get tickets</button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <div>
-            <div>
+          <div class="upcoming-events__event-card">
+            <div class="event-card">
               <img src="assets/images/Image43.png" alt="event-image">
-            </div>
-            <div>
-              <h4>Mon, Jul 3, 2018 <label>20:30</label></h4>
-              <h5>KED, Beirut</h5>
-              <h3>Boris Brejcha Showcase</h3>
-              <button type="button">Concert</button>
-              <button type="button">Electro</button>
-              <button type="button">Get tickets</button>
-            </div>
-          </div>
-          <div>
-            <div>
-              <img src="assets/images/event_cover_batien.png" alt="event-imae">
-            </div>
-            <div>
-              <h4>Mon, Jul 3, 2018 <label>20:30</label></h4>
-              <h5>KED, Beirut</h5>
-              <h3>DISTORTED SHOWCASE at Frozen Cherry</h3>
-              <button type="button">Concert</button>
-              <button type="button">Electro</button>
-              <button type="button">Get tickets</button>
+              <div class="event-card__info">
+                <div class="event-card__date-place">
+                  <h4 class="event-card__date event-card__date_small">Mon, Jul 3, 2018 <label class="event-card__time">20:30</label></h4>
+                  <h4 class="event-card__place event-card__place_small">KED, Beirut</h4>
+                </div>
+                  <h3 class="event-card__title event-card__title_small">Kid Francescoli</h3>
+                <div class="event-card__buttons">
+                  <div>
+                    <button class="tags-button" type="button">Concert</button>
+                    <button  class="tags-button" type="button">Electro</button>
+                  </div>
+                  <div class="event-card__get-tickets">
+                    <button type="button" class="event-card__get-tickets__button">Get tickets</button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <div>
-            <div>
+          <div class="upcoming-events__event-card">
+            <div class="event-card">
+              <img src="assets/images/event_cover_batien.png" alt="event-image">
+              <div class="event-card__info">
+                <div class="event-card__date-place">
+                  <h4 class="event-card__date event-card__date_small">Mon, Jul 3, 2018 <label class="event-card__time">20:30</label></h4>
+                  <h4 class="event-card__place event-card__place_small">KED, Beirut</h4>
+                </div>
+                  <h3 class="event-card__title event-card__title_small">Kid Francescoli</h3>
+                <div class="event-card__buttons">
+                  <div>
+                    <button class="tags-button" type="button">Concert</button>
+                    <button  class="tags-button" type="button">Electro</button>
+                  </div>
+                  <div class="event-card__get-tickets">
+                    <button type="button" class="event-card__get-tickets__button">Get tickets</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="upcoming-events__event-card">
+            <div class="event-card">
               <img src="assets/images/event_cover_IHJOZ_2_HEADS_AND_A_HAND.png" alt="event-image">
-            </div>
-            <div class="event-card__info">
-              <div class="event-card__date-place">
-                <h4 class="event-card__date">Mon, Jul 3, 2018 <label class="event-card__time">20:30</label></h4>
-                <h4 class="event-card__place">KED, Beirut</h4>
-              </div>
-              <div class="event-card__title">
-                <h3 class="event-card__title-text">Boris Brejcha Showcase</h3>
-              </div>
-              <div class="event-card__buttons">
-              <div>
-                <button class="tags-button" type="submit">Concert</button>
-                <button type="submit" class="tags-button">Electro</button>
-              </div>
-              <div class="event-card__get-tickets">
-                <button type="button" class="event-card__get-tickets__button">Get tickets</button>
-              </div>
+              <div class="event-card__info">
+                <div class="event-card__date-place">
+                  <h4 class="event-card__date event-card__date_small">Mon, Jul 3, 2018 <label class="event-card__time">20:30</label></h4>
+                  <h4 class="event-card__place event-card__place_small">KED, Beirut</h4>
+                </div>
+                  <h3 class="event-card__title event-card__title_small">Kid Francescoli</h3>
+                <div class="event-card__buttons">
+                  <div>
+                    <button class="tags-button" type="button">Concert</button>
+                    <button  class="tags-button" type="button">Electro</button>
+                  </div>
+                  <div class="event-card__get-tickets">
+                    <button type="button" class="event-card__get-tickets__button">Get tickets</button>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <button type="button">More</button>
+        <button type="button" class="upcoming-events__more">More</button>
       </div>
+    </div>
   </div>
 </body>
 </html>

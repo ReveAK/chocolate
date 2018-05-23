@@ -10,3 +10,8 @@
   font-size: 14px;
   font-weight: lighter;
   color: #7e8b8d; }
+
+.tags-button_navbar {
+  margin: 0 10px 0 0; }
+  .tags-button_navbar:last-child {
+    margin: 0; }

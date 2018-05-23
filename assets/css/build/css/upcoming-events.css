@@ -1,6 +1,32 @@
 .upcoming-events {
-  width: 960px; }
+  width: 972px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
   .upcoming-events__navbar {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center; }
+  .upcoming-events__event-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+  .upcoming-events__event-card {
+    margin: 12px;
+    width: 468px;
+    height: 318px; }
+    .upcoming-events__event-card:nth-child(odd) {
+      margin-left: 12px; }
+    .upcoming-events__event-card:nth-child(even) {
+      margin-right: 0px; }
+  .upcoming-events__more {
+    width: 188px;
+    height: 32px;
+    background-color: #222222;
+    color: white;
+    border-radius: 36px;
+    font-size: 14px;
+    font-family: Helvetica;
+    margin-top: 12px; }

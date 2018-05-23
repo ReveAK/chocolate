@@ -1,11 +1,45 @@
 .upcoming-events {
   $block: '.upcoming-events';
 
-  width: 960px;
+  width: 972px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
   &__navbar {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+
+  &__event-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  &__event-card {
+    margin: 12px;
+    width: 468px;
+    height: 318px;
+    &:nth-child(odd) {
+      margin-left: 12px;
+    }
+    &:nth-child(even) {
+      margin-right: 0px;
+    }
+  }
+
+  &__more {
+    width: 188px;
+    height: 32px;
+    background-color: #222222;
+    color: white;
+    border-radius: 36px;
+    font-size: 14px;
+    font-family: Helvetica;
+    margin-top: 12px;
   }
 }

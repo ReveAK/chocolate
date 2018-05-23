@@ -3,27 +3,41 @@
 
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   width: 100%;
   height: 100%;
+  background-color: white;
 
   &__info {
-    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
     padding:0 25px 0 23px;
+    height: 179px;
+
   }
 
   &__date-place {
+    // border-top: 0.3px solid #707070;
+    // border-bottom: 0.3px solid #707070;
     display: flex;
     justify-content: space-between;
-    height: 48px;
     align-items: center;
   }
 
   &__date {
     font-family: "Helvetica";
     font-weight: lighter;
-    font-size: 18px;
-    line-height: 16px;
+    margin: 0;
    color: rgba(212, 31, 77, 1);
+  }
+
+  &__date_big {
+    font-size: 18px;
+  }
+
+  &__date_small {
+    font-size: 12px;
   }
 
   &__time {
@@ -33,25 +47,34 @@
   &__place {
     font-family: "Helvetica";
     font-weight: lighter;
+    margin: 0;
+  }
+
+  &__place_big {
     font-size: 18px;
-    line-height: 16px;
+  }
+
+  &__place_small {
+    font-size: 12px;
   }
 
   &__title {
-    height: 64px;
-  }
-
-  &__title-text {
     font-family: "Helvetica";
     font-weight: lighter;
+    margin: 0;
+  }
+
+  &__title_big {
     font-size: 24px;
-    line-height: 24px;
+  }
+
+  &__title_small {
+    font-size: 20px;
   }
 
   &__buttons {
     display: flex;
     justify-content: space-between;
-    height: 64px;
     align-items: center;
   }
 
