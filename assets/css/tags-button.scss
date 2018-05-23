@@ -1,0 +1,15 @@
+.tags-button {
+  $block: '.tags-button';
+
+  border: 1px ridge rgba(112, 112, 112, 1);
+  border-radius: 36px;
+  width: auto;
+  padding: 0 14px;
+  text-align: center;
+  height: 32px;
+  background-color: transparent;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: lighter;
+  color: rgba(126, 139, 141, 1)
+}

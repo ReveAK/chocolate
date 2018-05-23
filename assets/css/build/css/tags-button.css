@@ -1,0 +1,12 @@
+.tags-button {
+  border: 1px ridge #707070;
+  border-radius: 36px;
+  width: auto;
+  padding: 0 14px;
+  text-align: center;
+  height: 32px;
+  background-color: transparent;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: lighter;
+  color: #7e8b8d; }

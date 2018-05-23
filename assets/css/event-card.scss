@@ -55,18 +55,6 @@
     align-items: center;
   }
 
-  &__tags-button {
-    border: 1px ridge rgba(112, 112, 112, 1);
-    border-radius: 36px;
-    width: 75px;
-    height: 32px;
-    background-color: transparent;
-    font-family: Helvetica;
-    font-size: 14px;
-    font-weight: lighter;
-    color: rgba(126, 139, 141, 1)
-  }
-
   &__get-tickets {
     display: flex;
     justify-content: center;
